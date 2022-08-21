@@ -7,6 +7,9 @@ html, body, header > *{
     color: white;
 }
 
+#topDonator, #recentDonations {
+    text-align: center;
+}
 header {
     background-image: url("phantom.jpg");
     background-position: center;
@@ -58,7 +61,7 @@ button.ip {
 }
 
 a {
-    color:rgb(10, 15, 19);
+    color:white;
 }
 
 
