@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">    
     <head>
+        <link href="style.css" rel="stylesheet">
         <!-- Primary Meta Tags -->
         <title>PhantomSMP - Minecraft Survival and NethPot server!</title>
         <meta name="title" content="PhantomSMP - Minecraft Survival and NethPot server!">
@@ -19,8 +20,80 @@
         <meta property="twitter:title" content="PhantomSMP - Minecraft Survival and NethPot server!">
         <meta property="twitter:description" content="1.18.2 Nethpot, Duels and Survival server! ">
         <meta property="twitter:image" content="hhttps://phantomsmp.fun/phantom.jpg">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
     </head>
     <body>
-        <h1> still not done </h1>
+        <header>
+            <h1>PhantomSMP</h1>
+        </header>
+
+        <sides>
+            <side>
+                <h2>Top Donators</h2>
+                <center>
+                    <img title="Coktail" src="https://crafatar.com/avatars/dc4a2179-ef55-4fe7-899b-8289103aeca1?size=64">
+                    <h3>Coktail (100$)</h3>
+                </center>
+                <center>
+                    <img title="Coktail" src="https://crafatar.com/avatars/dc4a2179-ef55-4fe7-899b-8289103aeca1?size=64">
+                    <h3>Coktail (100$)</h3>
+                </center>
+                <center>
+                    <img title="Coktail" src="https://crafatar.com/avatars/dc4a2179-ef55-4fe7-899b-8289103aeca1?size=64">
+                    <h3>Coktail (100$)</h3>
+                </center>
+
+                <h2>Recent donations</h2>
+                <center>
+                    <img title="Coktail" src="https://crafatar.com/avatars/dc4a2179-ef55-4fe7-899b-8289103aeca1?size=64">
+                    <h3>Coktail (100$)</h3>
+                </center>
+                <center>
+                    <img title="Coktail" src="https://crafatar.com/avatars/dc4a2179-ef55-4fe7-899b-8289103aeca1?size=64">
+                    <h3>Coktail (100$)</h3>
+                </center>
+                <center>
+                    <img title="Coktail" src="https://crafatar.com/avatars/dc4a2179-ef55-4fe7-899b-8289103aeca1?size=64">
+                    <h3>Coktail (100$)</h3>
+                </center>
+
+            </side>
+            
+            <side>
+                <h2>Details</h2>
+                <p>The server's currently in a beta state. If you wanna join you can do so by clicking the button below :)</p>
+                <button class="ip" onclick="copyIP(this)">phantomsmp.fun (copy)</button>
+                <p>You can find the store here: </p>
+                <button onclick="location.href = 'https://shop.phantomsmp.fun'">shop.phantomsmp.fun</button>
+
+            </side>
+            <side style="margin-left: 30px">
+                <h2>Vote</h2>
+                <a href="https://141.lv">some trashy website #1</a><br>
+                <a href="https://141.lv">some trashy website #2</a><br>
+                <a href="https://141.lv">some trashy website #3</a><br>
+                <a href="https://141.lv">some trashy website #4</a><br>
+                <a href="https://141.lv">some trashy website #5</a><br>
+                <a href="https://141.lv">some trashy website #6</a><br>
+                <a href="https://141.lv">some trashy website #7</a><br>
+
+            </side>
+        </sides>
+
+        <script>
+            // hi :3 - from yourfriend
+            function copyIP (t) {
+                if(t.innerText.includes("copied")) return;
+
+                t.innerText = "phantomsmp.fun (copied!)";
+                
+                navigator.clipboard.writeText("phantomsmp.fun")
+
+                setTimeout(() => {
+                    t.innerText = "phantomsmp.fun (copy)";
+                }, 6969);
+            }
+        </script>
     </body>
 </html>

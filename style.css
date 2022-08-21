@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Silkscreen&display=swap');
+
+html, body, header > *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;    
+    color: white;
+}
+
+header {
+    background-image: url("phantom.jpg");
+    background-position: center;
+    border-bottom: 4px solid rgba(0, 0, 0, 25%);
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header > h1 {
+    font-family: 'Silkscreen', cursive;
+    font-size: 10vh;
+}
+
+sides {
+    display: flex;
+    background-color:rgb(47 64 94);
+    height: 80vh;
+}
+
+sides > side {
+    flex: 1;
+}
+
+side > h1, h2, h3, h4, h5 {
+    margin: 0;
+    padding: 5px;
+}
+
+button {
+    background-color:rgb(31, 38, 51);
+    color: white;
+    border: 1px black solid;
+    box-shadow: 4px 4px 12px rgb(0, 0, 0);
+    transition: .5s;
+}
+
+button:hover {
+    background-color:rgb(15, 17, 22);
+    color: white;
+    border: 1px black solid;
+    box-shadow: 8px 8px 12px rgb(0, 0, 0);
+}
+
+button.ip {
+    font-size: 3vh;
+}
+
+a {
+    color:rgb(10, 15, 19);
+}
+
+
